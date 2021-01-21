@@ -41,3 +41,15 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: background
+    uniqueID: 478689139
+    locked: 0
+  - name: trucks
+    uniqueID: 3395045047
+    locked: 0
+  - name: midground
+    uniqueID: 1948271017
+    locked: 0
+  - name: foreground
+    uniqueID: 1652732119
+    locked: 0
