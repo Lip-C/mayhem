@@ -10,9 +10,17 @@ public class TruckConfig : ScriptableObject
         backAccessory, 
         frontAccessory, 
         sticker;
+
+    public float
+        topSpeed,
+        weight;
+
+    public WheelConfig wheelAttributes;
     
     public struct DriveTrain
     {
         
     }
+    
+    
 }
