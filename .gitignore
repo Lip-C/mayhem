@@ -72,3 +72,5 @@ MeyhemTrucks/Packages/manifest.json
 MeyhemTrucks/Packages/
 
 MeyhemTrucks/ProjectSettings/ProjectVersion.txt
+
+*.DS_Store
