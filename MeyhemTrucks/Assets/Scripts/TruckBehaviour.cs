@@ -6,12 +6,25 @@ public class TruckBehaviour : MonoBehaviour
 {
 
     public TruckConfig truckInfo;
-    // Start is called before the first frame update
-    void Start()
+    public FloatData fuelSupply;
+    private WaitForSeconds wfsObj;
+    
+    IEnumerator Start()
     {
+        wfsObj = new WaitForSeconds(0.5f);
         
+        while (true)
+        {
+            yield return wfsObj;
+            ExpendFuel();
+        }
     }
 
+    private void ExpendFuel()
+    {
+        fuelSupply.UpdateValue(truckInfo.fuelExpenseRate);
+    }
+    
     // Update is called once per frame
     void Update()
     {

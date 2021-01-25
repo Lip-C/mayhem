@@ -13,7 +13,8 @@ public class TruckConfig : ScriptableObject
 
     public float
         topSpeed,
-        weight;
+        weight,
+        fuelExpenseRate;
 
     public WheelConfig wheelAttributes;
     
@@ -21,6 +22,4 @@ public class TruckConfig : ScriptableObject
     {
         
     }
-    
-    
 }

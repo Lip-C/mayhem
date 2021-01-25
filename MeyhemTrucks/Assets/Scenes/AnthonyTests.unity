@@ -465,6 +465,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6456165373bea488db5b8c78e7fbb1f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  truckInfo: {fileID: 11400000, guid: 52c02920ed5eb40618db34580254a088, type: 2}
+  fuelSupply: {fileID: 11400000, guid: 9478eed21fc1b496e892ca2e39712905, type: 2}
 --- !u!1 &718595992
 GameObject:
   m_ObjectHideFlags: 0
