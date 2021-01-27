@@ -13,6 +13,8 @@ public class TruckConfig : ScriptableObject
 
     public float
         topSpeed,
+        topRPM,
+        boostLevel,
         weight,
         fuelExpenseRate;
 
