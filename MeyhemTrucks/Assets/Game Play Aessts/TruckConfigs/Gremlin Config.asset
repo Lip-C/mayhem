@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 016ce70b51c2b435cbaeb52496d97f5a, type: 3}
+  m_Name: Gremlin Config
+  m_EditorClassIdentifier: 
+  body: {fileID: -1007747644838894437, guid: 29688e0f0b5674ba2b531a87c5b7728c, type: 3}
+  frontWheel: {fileID: -4606580913739002587, guid: 951f639c259194563979d2cbd07d4936, type: 3}
+  rearWheel: {fileID: -4606580913739002587, guid: 951f639c259194563979d2cbd07d4936, type: 3}
+  backAccessory: {fileID: 0}
+  frontAccessory: {fileID: 0}
+  sticker: {fileID: 0}
+  topSpeed: 45
+  weight: 2
+  wheelAttributes: {fileID: 11400000, guid: 7d64562e149424d9d97688da13c8138f, type: 2}

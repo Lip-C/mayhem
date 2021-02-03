@@ -9,6 +9,7 @@
 [Bb]uilds/
 [Ll]ogs/
 [Mm]emoryCaptures/
+.idea/
 
 # Never ignore Asset meta data
 !/[Aa]ssets/**/*.meta
@@ -65,3 +66,11 @@ crashlytics-build.properties
 MeyhemTrucks/Assets/Sprites/Failed Experiments/
 
 MeyhemTrucks/Assets/Sprites/.DS_Store
+
+MeyhemTrucks/Packages/manifest.json
+
+MeyhemTrucks/Packages/
+
+MeyhemTrucks/ProjectSettings/ProjectVersion.txt
+
+*.DS_Store
