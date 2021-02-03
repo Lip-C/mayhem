@@ -138,7 +138,7 @@ GameObject:
   - component: {fileID: 136083531}
   - component: {fileID: 136083530}
   m_Layer: 0
-  m_Name: Square (2)
+  m_Name: Strut
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -277,7 +277,7 @@ Transform:
   m_GameObject: {fileID: 136083529}
   m_LocalRotation: {x: 0.32130003, y: 0.9469775, z: -0, w: 0}
   m_LocalPosition: {x: -1.25, y: 2.58, z: 0}
-  m_LocalScale: {x: 4.42, y: 1, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
@@ -294,7 +294,7 @@ GameObject:
   - component: {fileID: 603428826}
   - component: {fileID: 603428828}
   m_Layer: 0
-  m_Name: GRound
+  m_Name: Ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -610,7 +610,7 @@ GameObject:
   - component: {fileID: 1905064056}
   - component: {fileID: 1905064055}
   m_Layer: 0
-  m_Name: Square (0)
+  m_Name: InnerShock
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -670,7 +670,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 618ae97eb6d144dff976322703abb449, type: 3}
+  m_Sprite: {fileID: -2053671599416102912, guid: 0602bd79155e243dbb82548352c6cff8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -690,7 +690,7 @@ Transform:
   m_GameObject: {fileID: 1905064050}
   m_LocalRotation: {x: -0, y: -0, z: 0.6707314, w: 0.7417003}
   m_LocalPosition: {x: 4.48, y: 3.96, z: 0}
-  m_LocalScale: {x: 4.42, y: 1, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1

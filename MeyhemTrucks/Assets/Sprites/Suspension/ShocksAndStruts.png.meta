@@ -1,16 +1,19 @@
 fileFormatVersion: 2
-guid: 385044072f99a426d98ed24865e0eac1
+guid: 0602bd79155e243dbb82548352c6cff8
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1458473674674691215
-    second: RegM_Shock
+      213: -2053671599416102912
+    second: InnerShock
   - first:
-      213: -6516919142855919887
-    second: RegM_RoolCage
+      213: -5080339052796343669
+    second: OuterShock
   - first:
-      213: -3275127425052338371
-    second: RegM_Strut
+      213: 3403471953831994276
+    second: WheelAttachPoint
+  - first:
+      213: 6288946530238800879
+    second: OuterStrut
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -112,13 +115,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: RegM_Shock
+      name: InnerShock
       rect:
         serializedVersion: 2
-        x: 2695
-        y: 1801
-        width: 564
-        height: 97
+        x: 0
+        y: 82
+        width: 256
+        height: 26
       alignment: 9
       pivot: {x: 1, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -126,20 +129,41 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 173a1c29be572cbe0800000000000000
-      internalID: -1458473674674691215
+      spriteID: 000be77af84ef73e0800000000000000
+      internalID: -2053671599416102912
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RegM_RoolCage
+      name: OuterShock
       rect:
         serializedVersion: 2
-        x: 1027
-        y: 785
-        width: 1796
-        height: 874
+        x: 0
+        y: 39
+        width: 129
+        height: 31
+      alignment: 9
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8a878b5c820f79b0800000000000000
+      internalID: -5080339052796343669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WheelAttachPoint
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 34
+        width: 41
+        height: 41
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -147,29 +171,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1f6312451904f85a0800000000000000
-      internalID: -6516919142855919887
+      spriteID: 4a3292ba5bf8b3f20800000000000000
+      internalID: 3403471953831994276
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RegM_Strut
+      name: OuterStrut
       rect:
         serializedVersion: 2
-        x: 2682
-        y: 499
-        width: 504
-        height: 206
+        x: 0
+        y: 0
+        width: 256
+        height: 30
       alignment: 9
-      pivot: {x: 0.866, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      pivot: {x: 0.9453125, y: 0.5}
+      border: {x: 15, y: 0, z: 14, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d379d9395f86c82d0800000000000000
-      internalID: -3275127425052338371
+      spriteID: fe32f4a8c83d64750800000000000000
+      internalID: 6288946530238800879
       vertices: []
       indices: 
       edges: []
