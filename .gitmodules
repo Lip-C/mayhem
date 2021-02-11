@@ -1,3 +1,6 @@
 [submodule "MeyhemTrucks/Assets/Tools"]
 	path = MeyhemTrucks/Assets/Tools
 	url = https://github.com/anthonyromrell/ArtisanDream.Tools.git
+[submodule "MeyhemTrucks/Autoparts"]
+	path = MeyhemTrucks/Autoparts
+	url = https://github.com/anthonyromrell/autoparts.git
