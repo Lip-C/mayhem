@@ -226,8 +226,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 1652732119
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 8bdddcde12cca46e8b3c14bd9653354f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -426,6 +426,38 @@ PrefabInstance:
     - target: {fileID: 19800006, guid: aecec9ebb8980c94187c3fcf7cf962a4, type: 3}
       propertyPath: ColorModule.gradient.maxGradient.m_NumColorKeys
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 19900000, guid: aecec9ebb8980c94187c3fcf7cf962a4, type: 3}
+      propertyPath: m_SortingLayer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 19900000, guid: aecec9ebb8980c94187c3fcf7cf962a4, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1652732119
+      objectReference: {fileID: 0}
+    - target: {fileID: 19900002, guid: aecec9ebb8980c94187c3fcf7cf962a4, type: 3}
+      propertyPath: m_SortingLayer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 19900002, guid: aecec9ebb8980c94187c3fcf7cf962a4, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1652732119
+      objectReference: {fileID: 0}
+    - target: {fileID: 19900004, guid: aecec9ebb8980c94187c3fcf7cf962a4, type: 3}
+      propertyPath: m_SortingLayer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 19900004, guid: aecec9ebb8980c94187c3fcf7cf962a4, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1652732119
+      objectReference: {fileID: 0}
+    - target: {fileID: 19900006, guid: aecec9ebb8980c94187c3fcf7cf962a4, type: 3}
+      propertyPath: m_SortingLayer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 19900006, guid: aecec9ebb8980c94187c3fcf7cf962a4, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1652732119
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aecec9ebb8980c94187c3fcf7cf962a4, type: 3}

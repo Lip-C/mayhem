@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 2083337136657017348}
   - component: {fileID: 2083337136657017371}
   m_Layer: 0
-  m_Name: BoosterPoserUp
+  m_Name: BoosterPowerUp
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -70,8 +70,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 1652732119
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Sprite: {fileID: -9095717837082945937, guid: 5ac1344f1811a400685eae8a948319b5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -158,6 +158,8 @@ MonoBehaviour:
   triggerExitEvent:
     m_PersistentCalls:
       m_Calls: []
-  delayTime: 0.01
+  delayTimeStart: 0.01
+  delayTimeHold: 0.01
+  delayTimeEnd: 0.01
   canRepeat: 1
   repeatTimes: 20

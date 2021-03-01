@@ -44,6 +44,12 @@ TagManager:
   - name: background
     uniqueID: 478689139
     locked: 0
+  - name: BackProps
+    uniqueID: 1671324875
+    locked: 0
+  - name: Sky
+    uniqueID: 1304886495
+    locked: 0
   - name: trucks
     uniqueID: 3395045047
     locked: 0
