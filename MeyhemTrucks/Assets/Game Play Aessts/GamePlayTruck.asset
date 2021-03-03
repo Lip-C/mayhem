@@ -18,8 +18,8 @@ MonoBehaviour:
   backAccessory: {fileID: 0}
   frontAccessory: {fileID: 0}
   sticker: {fileID: 0}
-  topSpeed: 40
-  topRPM: 2000
+  topSpeed: 60
+  topRPM: 4000
   boostLevel: 2
   weight: 0
   fuelExpenseRate: -0.001

@@ -1,5 +1,6 @@
 using System;
 using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody2D))]
@@ -8,12 +9,12 @@ public class TruckBehaviour : MonoBehaviour
     public TruckConfig truckInfo;
     public FloatData fuelSupply, boostPower;
     public GameAction startGameAction, horizontalInput, endGameAction, winGameAction;
-    public WheelJoint2D frontWheel;
+    public WheelJoint2D[] wheels;
 
     private float inputSpeed, boostLevel = 1f;
     private WaitForSeconds wfsObj;
     private readonly WaitForFixedUpdate wffuObj;
-    private JointMotor2D newMotor;
+    private JointMotor2D newMotor, backMotor2D;
     private Vector2 truckDirection;
     private bool run;
 
@@ -26,6 +27,11 @@ public class TruckBehaviour : MonoBehaviour
     private void Awake()
     {
         startGameAction.raiseNoArgs += StartTruck;
+        wheels = GetComponents<WheelJoint2D>();
+        foreach (var wheel in wheels)
+        {
+            print(wheel.connectedBody.name);
+        }
     }
 
     private IEnumerator StartDriving()
@@ -34,29 +40,50 @@ public class TruckBehaviour : MonoBehaviour
         endGameAction.raiseNoArgs += EndControl;
         winGameAction.raiseNoArgs += WinGameHandler;
         
-        newMotor = frontWheel.motor;
+        newMotor = wheels[0].motor;
+        
         wfsObj = new WaitForSeconds(0.1f);
 
         run = true;
         StartCoroutine(Drive());
         
-        while (fuelSupply.value > 0)
+        while (fuelSupply.value > 0 || run)
         {
             yield return wfsObj;
             ExpendFuel();
         }
     }
 
+    private void OnDestroy()
+    {
+        startGameAction.raiseNoArgs = null;
+        horizontalInput.raise = null;
+        endGameAction.raiseNoArgs = null;
+        winGameAction.raiseNoArgs = null;
+    }
+
+    private void RunMotors(float speed, float torque)
+    {
+        newMotor.motorSpeed = speed;
+        backMotor2D.motorSpeed = speed * 0.3f;
+        newMotor.maxMotorTorque = torque;
+        backMotor2D.maxMotorTorque = torque;
+        foreach (var wheel in wheels)
+        {
+            //wheel.motor = newMotor;
+        }
+        wheels[1].motor = newMotor;
+        wheels[0].motor = backMotor2D;
+    }
+
     private void WinGameHandler()
     {
         StopCoroutine(StartDriving());
         EndControl();
-        newMotor.motorSpeed = 0;
-        newMotor.maxMotorTorque = 100;
-        frontWheel.motor = newMotor;
+        RunMotors(0, 100);
     }
 
-    public void StartTruck()
+    private void StartTruck()
     {
         StartCoroutine(StartDriving());
     }
@@ -66,9 +93,7 @@ public class TruckBehaviour : MonoBehaviour
         horizontalInput.raise = null;
         inputSpeed = 0;
         run = false;
-        newMotor.motorSpeed = 0;
-        newMotor.maxMotorTorque = 0;
-        frontWheel.motor = newMotor;
+        RunMotors(0,0);
     }
     
     private void RunInput(object obj)
@@ -89,6 +114,7 @@ public class TruckBehaviour : MonoBehaviour
             yield return wffuObj;
             boostPower.UpdateValue(-0.0035f);
             fuelSupply.UpdateValue(-0.001f);
+            print(boostPower.value);
         }
         boostLevel = 1;
     }
@@ -96,6 +122,9 @@ public class TruckBehaviour : MonoBehaviour
     private IEnumerator Drive()
     {
         boostLevel = 1f;
+        float speed;
+        float torque;
+        
         while (run)
         {
             if (Input.GetKeyDown(KeyCode.Space) && boostPower.value > 0)
@@ -105,19 +134,20 @@ public class TruckBehaviour : MonoBehaviour
             }
             
             if(inputSpeed != 0)
-                fuelSupply.UpdateValue(-0.0002f);
+                fuelSupply.UpdateValue(-0.0001f);
         
-            newMotor.motorSpeed = truckInfo.topSpeed * -10 * inputSpeed * boostLevel;
+            speed = truckInfo.topSpeed * -10 * inputSpeed * boostLevel;
             if (inputSpeed < 0)
                 inputSpeed *= -0.1f;
-            newMotor.maxMotorTorque = truckInfo.topRPM * inputSpeed;
+            torque = truckInfo.topRPM * inputSpeed;
         
             if (Input.GetKey(KeyCode.B))
             {
-                newMotor.motorSpeed = 0;
-                newMotor.maxMotorTorque = 1000;
+                speed = 0;
+                torque = 1000;
             }
-            frontWheel.motor = newMotor;
+            
+            RunMotors(speed, torque);
             yield return wffuObj;
         }
     }
