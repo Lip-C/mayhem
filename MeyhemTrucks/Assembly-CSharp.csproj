@@ -56,112 +56,129 @@
      <Compile Include="Assets\Epic Toon FX\Demo\Scripts\ETFXLoopScript.cs" />
      <Compile Include="Assets\Tools\DestroyDisable\DisableOrDestroyBehaviour.cs" />
      <Compile Include="Assets\Epic Toon FX\Scripts\ETFXPitchRandomizer.cs" />
-     <Compile Include="Assets\Archanor\Sci-Fi Arsenal\Sci-Fi Effects\Scripts\SciFiRotation.cs" />
      <Compile Include="Assets\Tools\Character\Scripts\CharacterBehaviour.cs" />
      <Compile Include="Assets\Tools\GameControl\ApplicationControl.cs" />
-     <Compile Include="Assets\2D SpriteShape\Extras\Scripts\ConformingSpline.cs" />
-     <Compile Include="Assets\Archanor\Sci-Fi Arsenal\InteractiveDemo\Demo Scripts\SciFiProjectileScript.cs" />
-     <Compile Include="Assets\Epic Toon FX\Demo\Scripts\ETFXFireProjectile.cs" />
      <Compile Include="Assets\Tools\SingleVariables\FloatBool.cs" />
+     <Compile Include="Assets\Epic Toon FX\Demo\Scripts\ETFXFireProjectile.cs" />
      <Compile Include="Assets\Tools\SingleVariables\IntDataBehavior.cs" />
-     <Compile Include="Assets\MagicArsenal\Demo\Scripts\MagicDragMouseOrbit.cs" />
      <Compile Include="Assets\MagicArsenal\Effects\Scripts\MagicLightFlicker.cs" />
-     <Compile Include="Assets\Tools\Utilities\Instancing\InstanceConfigBase.cs" />
-     <Compile Include="Assets\Tools\Transform\FlipTransformBehaviour.cs" />
-     <Compile Include="Assets\2D SpriteShape\Extras\Scripts\SimpleDraw.cs" />
      <Compile Include="Assets\Tools\Vector3Data\TransformToVector3Behaviour.cs" />
-     <Compile Include="Assets\Tools\Utilities\Instancing\InstancerSystemBase.cs" />
      <Compile Include="Assets\Tools\Pooling\PoolingBehaviour.cs" />
-     <Compile Include="Assets\Tools\Debugging\Debugger.cs" />
      <Compile Include="Assets\Archanor\Sci-Fi Arsenal\InteractiveDemo\Demo Scripts\SciFiLoopScript.cs" />
-     <Compile Include="Assets\Tools\Store\Scripts\PurchaseableObjectGenerator.cs" />
-     <Compile Include="Assets\Tools\Collections\Collection.cs" />
      <Compile Include="Assets\Tools\Available\AvaliableButtonBehaviour.cs" />
      <Compile Include="Assets\Archanor\Sci-Fi Arsenal\InteractiveDemo\Demo Scripts\SciFiButtonScript.cs" />
      <Compile Include="Assets\Tools\Matching\MatchIdBehaviour.cs" />
      <Compile Include="Assets\Tools\Pooling\PoolControl.cs" />
-     <Compile Include="Assets\2D SpriteShape\Extras\Scripts\Clipper.cs" />
      <Compile Include="Assets\Tools\Utilities\Interfaces\Interfaces.cs" />
-     <Compile Include="Assets\MagicArsenal\Effects\Scripts\MagicRotation.cs" />
-     <Compile Include="Assets\Mystic Arsenal\Demo\Scripts\MysticLoopScript.cs" />
      <Compile Include="Assets\Tools\ActionsEvents\GameActionHandler.cs" />
      <Compile Include="Assets\Tools\Available\AvailableData.cs" />
      <Compile Include="Assets\Tools\Systems\StringListManager.cs" />
      <Compile Include="Assets\Mystic Arsenal\Demo\Scripts\MysticButtonScript.cs" />
-     <Compile Include="Assets\Tools\AI\Scripts\AiHunt2D.cs" />
-     <Compile Include="Assets\MagicArsenal\Demo\Scripts\MagicFireProjectile.cs" />
      <Compile Include="Assets\Mystic Arsenal\Demo\Scripts\MysticOrbit.cs" />
      <Compile Include="Assets\Tools\AI\Scripts\AiBrain.cs" />
-     <Compile Include="Assets\Tools\UI\TextBehaviour.cs" />
-     <Compile Include="Assets\Tools\Collections\WeaponCollectible.cs" />
      <Compile Include="Assets\Tools\Transform\TransformDirectionChanger.cs" />
-     <Compile Include="Assets\Epic Toon FX\Demo\Scripts\ETFXButtonScript.cs" />
-     <Compile Include="Assets\2D SpriteShape\Extras\Scripts\GeometryCollider.cs" />
      <Compile Include="Assets\Epic Toon FX\Scripts\ETFXLightFade.cs" />
+     <Compile Include="Assets\Epic Toon FX\Demo\Scripts\ETFXButtonScript.cs" />
      <Compile Include="Assets\Tools\Utilities\Parenting\AttachToParent.cs" />
-     <Compile Include="Assets\Tools\Character\Scripts\CharacterHold.cs" />
      <Compile Include="Assets\Tools\SingleVariables\GenericObjects.cs" />
      <Compile Include="Assets\Tools\Available\AvailableObjectBehaviour.cs" />
      <Compile Include="Assets\Tools\ComponentControllers\TransformBehaviour.cs" />
      <Compile Include="Assets\Tools\Store\Scripts\PurchaseableObjects.cs" />
      <Compile Include="Assets\Scripts\TruckBehaviour.cs" />
      <Compile Include="Assets\Tools\Character\Scripts\CharacterPattern.cs" />
-     <Compile Include="Assets\Mystic Arsenal\Scripts\MysticRotation.cs" />
-     <Compile Include="Assets\MagicArsenal\Demo\Scripts\MagicLoadSceneOnClick.cs" />
      <Compile Include="Assets\Tools\DataStorage\Examples\Scripts\TextUI.cs" />
-     <Compile Include="Assets\Tools\DestroyDisable\DestroyOtherObjectBehaviour.cs" />
      <Compile Include="Assets\Tools\Collections\NewCollection.cs" />
      <Compile Include="Assets\Tools\Matching\IdBehaviour.cs" />
-     <Compile Include="Assets\Tools\Matching\SimpleMatchID.cs" />
      <Compile Include="Assets\Tools\Matching\NameID.cs" />
-     <Compile Include="Assets\MagicArsenal\Demo\Scripts\MagicButtonScript.cs" />
-     <Compile Include="Assets\Mystic Arsenal\Demo\Scripts\MysticProjectileScript.cs" />
      <Compile Include="Assets\Tools\DataStorage\DataStorage.cs" />
      <Compile Include="Assets\Tools\Input\KeyInputBehaviour.cs" />
-     <Compile Include="Assets\Tools\Store\Scripts\Store.cs" />
      <Compile Include="Assets\Tools\Input\InputsViaKeys.cs" />
      <Compile Include="Assets\Tools\Vector3Data\Vector3DataCollection.cs" />
-     <Compile Include="Assets\Tools\Triggers\TriggerEvents2D.cs" />
      <Compile Include="Assets\Tools\Animation\AnimStates.cs" />
      <Compile Include="Assets\Tools\Vector3Data\Vector3DataSystem.cs" />
      <Compile Include="Assets\MagicArsenal\Effects\Scripts\MagicBeamScript.cs" />
-     <Compile Include="Assets\Tools\SingleVariables\FloatData.cs" />
      <Compile Include="Assets\Epic Toon FX\Demo\ParticleEffectsShowcase\Scripts\ParticleEffectsLibrary.cs" />
-     <Compile Include="Assets\Tools\Triggers\TriggerEventsBehaviour.cs" />
-     <Compile Include="Assets\Tools\Vector3Data\Vector3Data.cs" />
-     <Compile Include="Assets\Tools\Systems\WorkSystem.cs" />
-     <Compile Include="Assets\Tools\ActionsEvents\StandAloneActionsEventsBehaviour.cs" />
      <Compile Include="Assets\Archanor\Sci-Fi Arsenal\InteractiveDemo\Demo Scripts\SciFiLoadSceneOnClick.cs" />
      <Compile Include="Assets\Tools\Character\Scripts\AutoMove.cs" />
-     <Compile Include="Assets\Tools\Store\Scripts\InAppPurchaseBase.cs" />
-     <Compile Include="Assets\Tools\SingleVariables\StringData.cs" />
      <Compile Include="Assets\Tools\AI\Scripts\AiBehaviour.cs" />
-     <Compile Include="Assets\Tools\Vector3Data\Vector3DataSystemBehaviour.cs" />
-     <Compile Include="Assets\Tools\DestroyDisable\Destroyer.cs" />
      <Compile Include="Assets\Tools\SingleVariables\StringList.cs" />
      <Compile Include="Assets\Tools\Utilities\SceneManagment\SceneManagement.cs" />
      <Compile Include="Assets\Tools\Transform\SendTransform.cs" />
      <Compile Include="Assets\Tools\Character\Scripts\CharacterMove2d.cs" />
      <Compile Include="Assets\Tools\Character\Scripts\SideScrollerMoveJump.cs" />
      <Compile Include="Assets\Tools\Utilities\Instancing\InstancingBehaviour.cs" />
-     <Compile Include="Assets\Archanor\Sci-Fi Arsenal\InteractiveDemo\Demo Scripts\SciFiDragMouseOrbit.cs" />
-     <Compile Include="Assets\Tools\Character\AnimateCharacter.cs" />
      <Compile Include="Assets\Epic Toon FX\Demo\Scripts\ETFXMouseOrbit.cs" />
-     <Compile Include="Assets\MagicArsenal\Effects\Scripts\MagicLightFade.cs" />
      <Compile Include="Assets\Tools\SingleVariables\GenericObjectsBase.cs" />
      <Compile Include="Assets\Archanor\Sci-Fi Arsenal\InteractiveDemo\Demo Scripts\SciFiLoadSceneOnClick2.cs" />
+     <Compile Include="Assets\Tools\AI\Scripts\AiIdle.cs" />
+     <Compile Include="Assets\Archanor\Sci-Fi Arsenal\Sci-Fi Effects\Scripts\SciFiLightFlicker.cs" />
+     <Compile Include="Assets\Tools\DestroyDisable\DestoryOnTrigger.cs" />
+     <Compile Include="Assets\Epic Toon FX\Demo\ParticleEffectsShowcase\Scripts\UICanvasManager.cs" />
+     <Compile Include="Assets\Mystic Arsenal\Demo\Scripts\MysticSceneSelect.cs" />
+     <Compile Include="Assets\Tools\Utilities\Layers\LayerContoller.cs" />
+     <Compile Include="Assets\Mystic Arsenal\Scripts\MysticLightFade.cs" />
+     <Compile Include="Assets\Tools\SingleVariables\FloatDataBehaviour.cs" />
+     <Compile Include="Assets\Tools\SingleVariables\IntData.cs" />
+     <Compile Include="Assets\Tools\SingleVariables\ColorData.cs" />
+     <Compile Include="Assets\LookAndStretch.cs" />
+     <Compile Include="Assets\Tools\DestroyDisable\DestroyBehaviour.cs" />
+     <Compile Include="Assets\Tools\Collections\Collectible.cs" />
+     <Compile Include="Assets\Tools\Collections\ColorDataCollection.cs" />
+     <Compile Include="Assets\Epic Toon FX\Scripts\ETFXRotation.cs" />
+     <Compile Include="Assets\Scripts\WheelConfig.cs" />
+     <Compile Include="Assets\Tools\SingleVariables\TransformVariable.cs" />
+     <Compile Include="Assets\Epic Toon FX\Demo\ParticleEffectsShowcase\Scripts\PEDestoryTimed.cs" />
+     <Compile Include="Assets\Tools\Utilities\SceneIsLoadedRunAnimation.cs" />
+     <Compile Include="Assets\Tools\Character\Scripts\CharacterMoveAndRotate3d.cs" />
+     <Compile Include="Assets\MagicArsenal\Demo\Scripts\MagicLoopScript.cs" />
+     <Compile Include="Assets\Archanor\Sci-Fi Arsenal\Sci-Fi Effects\Scripts\SciFiRotation.cs" />
+     <Compile Include="Assets\2D SpriteShape\Extras\Scripts\ConformingSpline.cs" />
+     <Compile Include="Assets\Archanor\Sci-Fi Arsenal\InteractiveDemo\Demo Scripts\SciFiProjectileScript.cs" />
+     <Compile Include="Assets\MagicArsenal\Demo\Scripts\MagicDragMouseOrbit.cs" />
+     <Compile Include="Assets\Tools\Utilities\Instancing\InstanceConfigBase.cs" />
+     <Compile Include="Assets\Tools\Transform\FlipTransformBehaviour.cs" />
+     <Compile Include="Assets\2D SpriteShape\Extras\Scripts\SimpleDraw.cs" />
+     <Compile Include="Assets\Tools\Utilities\Instancing\InstancerSystemBase.cs" />
+     <Compile Include="Assets\Tools\Debugging\Debugger.cs" />
+     <Compile Include="Assets\Tools\Store\Scripts\PurchaseableObjectGenerator.cs" />
+     <Compile Include="Assets\Tools\Collections\Collection.cs" />
+     <Compile Include="Assets\2D SpriteShape\Extras\Scripts\Clipper.cs" />
+     <Compile Include="Assets\MagicArsenal\Effects\Scripts\MagicRotation.cs" />
+     <Compile Include="Assets\Mystic Arsenal\Demo\Scripts\MysticLoopScript.cs" />
+     <Compile Include="Assets\Tools\AI\Scripts\AiHunt2D.cs" />
+     <Compile Include="Assets\MagicArsenal\Demo\Scripts\MagicFireProjectile.cs" />
+     <Compile Include="Assets\Tools\UI\TextBehaviour.cs" />
+     <Compile Include="Assets\Tools\Collections\WeaponCollectible.cs" />
+     <Compile Include="Assets\2D SpriteShape\Extras\Scripts\GeometryCollider.cs" />
+     <Compile Include="Assets\Tools\Character\Scripts\CharacterHold.cs" />
+     <Compile Include="Assets\Mystic Arsenal\Scripts\MysticRotation.cs" />
+     <Compile Include="Assets\MagicArsenal\Demo\Scripts\MagicLoadSceneOnClick.cs" />
+     <Compile Include="Assets\Tools\DestroyDisable\DestroyOtherObjectBehaviour.cs" />
+     <Compile Include="Assets\Tools\Matching\SimpleMatchID.cs" />
+     <Compile Include="Assets\MagicArsenal\Demo\Scripts\MagicButtonScript.cs" />
+     <Compile Include="Assets\Mystic Arsenal\Demo\Scripts\MysticProjectileScript.cs" />
+     <Compile Include="Assets\Tools\Store\Scripts\Store.cs" />
+     <Compile Include="Assets\Tools\Triggers\TriggerEvents2D.cs" />
+     <Compile Include="Assets\Tools\SingleVariables\FloatData.cs" />
+     <Compile Include="Assets\Tools\Triggers\TriggerEventsBehaviour.cs" />
+     <Compile Include="Assets\Tools\Vector3Data\Vector3Data.cs" />
+     <Compile Include="Assets\Tools\Systems\WorkSystem.cs" />
+     <Compile Include="Assets\Tools\ActionsEvents\StandAloneActionsEventsBehaviour.cs" />
+     <Compile Include="Assets\Tools\Store\Scripts\InAppPurchaseBase.cs" />
+     <Compile Include="Assets\Tools\SingleVariables\StringData.cs" />
+     <Compile Include="Assets\Tools\DestroyDisable\Destroyer.cs" />
+     <Compile Include="Assets\Tools\Vector3Data\Vector3DataSystemBehaviour.cs" />
+     <Compile Include="Assets\Archanor\Sci-Fi Arsenal\InteractiveDemo\Demo Scripts\SciFiDragMouseOrbit.cs" />
+     <Compile Include="Assets\Tools\Character\AnimateCharacter.cs" />
+     <Compile Include="Assets\MagicArsenal\Effects\Scripts\MagicLightFade.cs" />
      <Compile Include="Assets\Tools\SingleVariables\BoolData.cs" />
      <Compile Include="Assets\Epic Toon FX\Demo\Scripts\ETFXProjectileScript.cs" />
-     <Compile Include="Assets\Archanor\Sci-Fi Arsenal\Sci-Fi Effects\Scripts\SciFiLightFlicker.cs" />
      <Compile Include="Assets\Tools\ComponentControllers\SpriteRendererBehaviour.cs" />
      <Compile Include="Assets\Tools\ActionsEvents\GameAction.cs" />
-     <Compile Include="Assets\Tools\AI\Scripts\AiIdle.cs" />
      <Compile Include="Assets\Epic Toon FX\Demo\Scripts\ETFXSceneManager.cs" />
      <Compile Include="Assets\Tools\Store\Scripts\InGamePurchase.cs" />
      <Compile Include="Assets\Tools\Utilities\Instancing\Instancer.cs" />
-     <Compile Include="Assets\Tools\DestroyDisable\DestoryOnTrigger.cs" />
      <Compile Include="Assets\Tools\Utilities\SceneManagment\SceneLoader.cs" />
-     <Compile Include="Assets\Epic Toon FX\Demo\ParticleEffectsShowcase\Scripts\UICanvasManager.cs" />
      <Compile Include="Assets\Mystic Arsenal\Demo\Scripts\MysticFireProjectile.cs" />
      <Compile Include="Assets\Tools\SingleVariables\FloatAxis.cs" />
      <Compile Include="Assets\Tools\Utilities\MonoEventBehaviours.cs" />
@@ -170,45 +187,28 @@
      <Compile Include="Assets\Tools\AI\Scripts\AiPatrol.cs" />
      <Compile Include="Assets\VarietyParticles\Demo\VarietySceneSelect.cs" />
      <Compile Include="Assets\2D SpriteShape\Extras\Scripts\Sprinkler.cs" />
-     <Compile Include="Assets\Mystic Arsenal\Demo\Scripts\MysticSceneSelect.cs" />
      <Compile Include="Assets\Tools\Coroutines\CoroutinesBehaviour.cs" />
-     <Compile Include="Assets\Mystic Arsenal\Scripts\MysticLightFade.cs" />
-     <Compile Include="Assets\Tools\Utilities\Layers\LayerContoller.cs" />
-     <Compile Include="Assets\Tools\SingleVariables\FloatDataBehaviour.cs" />
-     <Compile Include="Assets\Tools\SingleVariables\IntData.cs" />
      <Compile Include="Assets\Tools\Draggable\DraggableBehaviour.cs" />
      <Compile Include="Assets\MagicArsenal\Demo\Scripts\MagicProjectileScript.cs" />
-     <Compile Include="Assets\Tools\SingleVariables\ColorData.cs" />
-     <Compile Include="Assets\LookAndStretch.cs" />
      <Compile Include="Assets\Tools\Collections\CollectionBase.cs" />
      <Compile Include="Assets\Tools\AI\Scripts\AiBase.cs" />
      <Compile Include="Assets\Scripts\TruckConfig.cs" />
-     <Compile Include="Assets\Tools\DestroyDisable\DestroyBehaviour.cs" />
      <Compile Include="Assets\Mystic Arsenal\Scripts\MysticLightFlicker.cs" />
      <Compile Include="Assets\Tools\Toggling\ToggleEvent.cs" />
-     <Compile Include="Assets\Tools\Collections\Collectible.cs" />
-     <Compile Include="Assets\Tools\Collections\ColorDataCollection.cs" />
      <Compile Include="Assets\Tools\UI\ImageBehaviour.cs" />
      <Compile Include="Assets\Epic Toon FX\Demo\ParticleEffectsShowcase\Scripts\PEButtonScript.cs" />
-     <Compile Include="Assets\Epic Toon FX\Scripts\ETFXRotation.cs" />
      <Compile Include="Assets\2D SpriteShape\Extras\Scripts\LegacyCollider.cs" />
-     <Compile Include="Assets\Scripts\WheelConfig.cs" />
-     <Compile Include="Assets\Tools\SingleVariables\TransformVariable.cs" />
-     <Compile Include="Assets\Epic Toon FX\Demo\ParticleEffectsShowcase\Scripts\PEDestoryTimed.cs" />
      <Compile Include="Assets\Archanor\Sci-Fi Arsenal\InteractiveDemo\Demo Scripts\SciFiBeamScript.cs" />
-     <Compile Include="Assets\Tools\Utilities\SceneIsLoadedRunAnimation.cs" />
      <Compile Include="Assets\Tools\Utilities\Snapping\SnapBehaviour.cs" />
      <Compile Include="Assets\Tools\Systems\FloatMathSystem.cs" />
      <Compile Include="Assets\Tools\AI\Scripts\AiHunt.cs" />
-     <Compile Include="Assets\Tools\Character\Scripts\CharacterMoveAndRotate3d.cs" />
-     <Compile Include="Assets\MagicArsenal\Demo\Scripts\MagicLoopScript.cs" />
      <Compile Include="Assets\Tools\Matching\ColorMatch.cs" />
      <Compile Include="Assets\Tools\AI\Scripts\AIPattrol2d.cs" />
      <Compile Include="Assets\Tools\Character\Scripts\Pickup.cs" />
      <Compile Include="Assets\Tools\Counter\PerpetualCounter.cs" />
      <Compile Include="Assets\Tools\SingleVariables\Float3Data.cs" />
-     <Compile Include="Assets\Tools\ActionsEvents\GameActionsHandler.cs" />
      <Compile Include="Assets\Tools\AI\Scripts\SimpleAI.cs" />
+     <Compile Include="Assets\Tools\ActionsEvents\GameActionsHandler.cs" />
      <None Include="Assets\Epic Toon FX\Prefabs\Environment\Environment FX.txt" />
      <None Include="Assets\MagicArsenal\MagicArsenal - ReadMe.txt" />
      <None Include="Assets\Epic Toon FX\Prefabs\Combat\Combat FX.txt" />
@@ -798,6 +798,9 @@
  <Reference Include="mscorlib">
  <HintPath>/Applications/Unity/Hub/Editor/2020.2.1f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netfx/mscorlib.dll</HintPath>
  </Reference>
+ <Reference Include="Unity.InternalAPIEngineBridge.001">
+ <HintPath>/Users/anthonyromrell/GitRepos/mayhem/MeyhemTrucks/Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.001.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.VSCode.Editor">
  <HintPath>/Users/anthonyromrell/GitRepos/mayhem/MeyhemTrucks/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
  </Reference>
@@ -816,44 +819,47 @@
  <Reference Include="Unity.TextMeshPro">
  <HintPath>/Users/anthonyromrell/GitRepos/mayhem/MeyhemTrucks/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
+ <Reference Include="Unity.Mathematics.Editor">
+ <HintPath>/Users/anthonyromrell/GitRepos/mayhem/MeyhemTrucks/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.2D.Common.Runtime">
+ <HintPath>/Users/anthonyromrell/GitRepos/mayhem/MeyhemTrucks/Library/ScriptAssemblies/Unity.2D.Common.Runtime.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.2D.Path.Editor">
+ <HintPath>/Users/anthonyromrell/GitRepos/mayhem/MeyhemTrucks/Library/ScriptAssemblies/Unity.2D.Path.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.InternalAPIEditorBridge.001">
+ <HintPath>/Users/anthonyromrell/GitRepos/mayhem/MeyhemTrucks/Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.001.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.2D.SpriteShape.Editor">
+ <HintPath>/Users/anthonyromrell/GitRepos/mayhem/MeyhemTrucks/Library/ScriptAssemblies/Unity.2D.SpriteShape.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.2D.Sprite.Editor">
+ <HintPath>/Users/anthonyromrell/GitRepos/mayhem/MeyhemTrucks/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEditor.UI">
  <HintPath>/Users/anthonyromrell/GitRepos/mayhem/MeyhemTrucks/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Rider.Editor">
  <HintPath>/Users/anthonyromrell/GitRepos/mayhem/MeyhemTrucks/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
  </Reference>
- <Reference Include="UnityEngine.UI">
- <HintPath>/Users/anthonyromrell/GitRepos/mayhem/MeyhemTrucks/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
- </Reference>
- <Reference Include="Unity.2D.Path.Editor">
- <HintPath>/Users/anthonyromrell/GitRepos/mayhem/MeyhemTrucks/Library/ScriptAssemblies/Unity.2D.Path.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.Mathematics">
- <HintPath>/Users/anthonyromrell/GitRepos/mayhem/MeyhemTrucks/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
- </Reference>
- <Reference Include="Unity.2D.Common.Runtime">
- <HintPath>/Users/anthonyromrell/GitRepos/mayhem/MeyhemTrucks/Library/ScriptAssemblies/Unity.2D.Common.Runtime.dll</HintPath>
- </Reference>
- <Reference Include="Unity.InternalAPIEngineBridge.001">
- <HintPath>/Users/anthonyromrell/GitRepos/mayhem/MeyhemTrucks/Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.001.dll</HintPath>
- </Reference>
- <Reference Include="Unity.Mathematics.Editor">
- <HintPath>/Users/anthonyromrell/GitRepos/mayhem/MeyhemTrucks/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
- </Reference>
  <Reference Include="Unity.2D.Common.Editor">
  <HintPath>/Users/anthonyromrell/GitRepos/mayhem/MeyhemTrucks/Library/ScriptAssemblies/Unity.2D.Common.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UI">
+ <HintPath>/Users/anthonyromrell/GitRepos/mayhem/MeyhemTrucks/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="Unity.2D.SpriteShape.Runtime">
  <HintPath>/Users/anthonyromrell/GitRepos/mayhem/MeyhemTrucks/Library/ScriptAssemblies/Unity.2D.SpriteShape.Runtime.dll</HintPath>
  </Reference>
- <Reference Include="Unity.InternalAPIEditorBridge.001">
- <HintPath>/Users/anthonyromrell/GitRepos/mayhem/MeyhemTrucks/Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.001.dll</HintPath>
+ <Reference Include="Unity.Mathematics">
+ <HintPath>/Users/anthonyromrell/GitRepos/mayhem/MeyhemTrucks/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
  </Reference>
- <Reference Include="Unity.2D.Sprite.Editor">
- <HintPath>/Users/anthonyromrell/GitRepos/mayhem/MeyhemTrucks/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+ <Reference Include="com.unity.cinemachine.editor">
+ <HintPath>/Users/anthonyromrell/GitRepos/mayhem/MeyhemTrucks/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
  </Reference>
- <Reference Include="Unity.2D.SpriteShape.Editor">
- <HintPath>/Users/anthonyromrell/GitRepos/mayhem/MeyhemTrucks/Library/ScriptAssemblies/Unity.2D.SpriteShape.Editor.dll</HintPath>
+ <Reference Include="Cinemachine">
+ <HintPath>/Users/anthonyromrell/GitRepos/mayhem/MeyhemTrucks/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
