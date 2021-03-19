@@ -1,0 +1,285 @@
+fileFormatVersion: 2
+guid: dc3ba09339ceb4f03a4cdd55fdf4fbb6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -564964442798983153
+    second: SkullHelmet
+  - first:
+      213: -3348160438185155099
+    second: FULL_VIC_SKULL_1
+  - first:
+      213: -6727775301466446730
+    second: FULL_VIC_SKULL_2
+  - first:
+      213: -6224077627540795132
+    second: SkullGlasses
+  - first:
+      213: 9053879457617482797
+    second: FULL_VIC_SKULL_4
+  - first:
+      213: -7955206933940681963
+    second: FULL_VIC_SKULL_5
+  - first:
+      213: -1830337162427210563
+    second: FULL_VIC_SKULL_6
+  - first:
+      213: 2075969323601612661
+    second: FULL_VIC_SKULL_7
+  - first:
+      213: -7637398841151263895
+    second: FULL_VIC_SKULL_8
+  - first:
+      213: 7690589416489728808
+    second: FULL_VIC_SKULL_9
+  - first:
+      213: -7595243081010081162
+    second: FULL_VIC_SKULL_10
+  - first:
+      213: -1510560479078400127
+    second: SkullJaw
+  - first:
+      213: -7053423494933176075
+    second: SkullHead
+  - first:
+      213: 4458641262784541816
+    second: FULL_VIC_SKULL_13
+  - first:
+      213: -9007374056388615706
+    second: SkullMini
+  - first:
+      213: 956236976814672327
+    second: FULL_VIC_SKULL_15
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SkullHelmet
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 834
+        width: 1148
+        height: 1214
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f087d3425d7d828f0800000000000000
+      internalID: -564964442798983153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkullGlasses
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 1612
+        width: 868
+        height: 433
+      alignment: 9
+      pivot: {x: 0.5000001, y: 0.7982592}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40199f3df52af99a0800000000000000
+      internalID: -6224077627540795132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkullJaw
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 0
+        width: 634
+        height: 829
+      alignment: 9
+      pivot: {x: 0.48704934, y: 0.9191505}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18fb9c06f39690be0800000000000000
+      internalID: -1510560479078400127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkullHead
+      rect:
+        serializedVersion: 2
+        x: 1202
+        y: 708
+        width: 830
+        height: 883
+      alignment: 9
+      pivot: {x: 0.50254965, y: 0.70332474}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f02d16b3b43d1e90800000000000000
+      internalID: -7053423494933176075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkullMini
+      rect:
+        serializedVersion: 2
+        x: 1370
+        y: 0
+        width: 465
+        height: 661
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e123e1d4016ff280800000000000000
+      internalID: -9007374056388615706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

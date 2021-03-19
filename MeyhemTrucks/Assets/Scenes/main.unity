@@ -1759,7 +1759,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -43.66223, y: -421.61725}
+  m_AnchoredPosition: {x: -43.66223, y: -393}
   m_SizeDelta: {x: 615, y: 850}
   m_Pivot: {x: 0.4290045, y: 0.89809734}
 --- !u!114 &449151696
@@ -2243,7 +2243,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 15
+  orthographic size: 20
   m_Depth: 10
   m_CullingMask:
     serializedVersion: 2
@@ -4016,7 +4016,7 @@ MonoBehaviour:
   m_Follow: {fileID: 712508778}
   m_Lens:
     FieldOfView: 60
-    OrthographicSize: 15
+    OrthographicSize: 20
     NearClipPlane: 0.3
     FarClipPlane: 1000
     Dutch: 0
@@ -7309,11 +7309,12 @@ EdgeCollider2D:
   m_Points:
   - {x: -0.32457888, y: 0.30738616}
   - {x: 23.854017, y: -10.504814}
-  - {x: 32.54049, y: -11.133632}
-  - {x: 51.6257, y: -14.914816}
-  - {x: 50.785637, y: -15.471048}
-  - {x: 69.29469, y: -5.040864}
-  - {x: 69.39925, y: -4.981952}
+  - {x: 32.540485, y: -11.133631}
+  - {x: 51.571087, y: -14.904003}
+  - {x: 64.83437, y: -14.770608}
+  - {x: 63.987583, y: -15.417738}
+  - {x: 76.53755, y: -6.588058}
+  - {x: 76.6357, y: -6.5190096}
   m_AdjacentStartPoint: {x: 0, y: 0}
   m_AdjacentEndPoint: {x: 0, y: 0}
   m_UseAdjacentStartPoint: 0
@@ -7363,7 +7364,7 @@ MonoBehaviour:
       spriteIndex: 0
       corner: 1
       m_CornerMode: 1
-    - position: {x: 51.629272, y: -14.279381, z: 0}
+    - position: {x: 51.629242, y: -14.279384, z: 0}
       leftTangent: {x: 0, y: 0, z: 0}
       rightTangent: {x: 0, y: 0, z: 0}
       mode: 0
@@ -7373,7 +7374,17 @@ MonoBehaviour:
       spriteIndex: 0
       corner: 1
       m_CornerMode: 1
-    - position: {x: 68.98834, y: -4.4972286, z: 0}
+    - position: {x: 64.7081, y: -14.147834, z: 0}
+      leftTangent: {x: 0, y: 0, z: 0}
+      rightTangent: {x: 0, y: 0, z: 0}
+      mode: 0
+      height: 1
+      bevelCutoff: 0
+      bevelSize: 0
+      spriteIndex: 0
+      corner: 1
+      m_CornerMode: 1
+    - position: {x: 76.1785, y: -6.0776944, z: 0}
       leftTangent: {x: 0, y: 0, z: 0}
       rightTangent: {x: 0, y: 0, z: 0}
       mode: 0
@@ -7454,8 +7465,8 @@ SpriteShapeRenderer:
   - {fileID: 21300000, guid: 608e61deb05c54660bebf5a4dd2ee02d, type: 3}
   - {fileID: 21300000, guid: 608e61deb05c54660bebf5a4dd2ee02d, type: 3}
   m_LocalAABB:
-    m_Center: {x: 35.06813, y: -13.290272, z: -0.0002}
-    m_Extent: {x: 40.63205, y: 14.21431, z: 0.0002}
+    m_Center: {x: 39.228374, y: -13.413222, z: -0.00024999998}
+    m_Extent: {x: 44.792294, y: 14.33726, z: 0.00024999998}
 --- !u!4 &1750222301 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3774737706416195004, guid: 520c2604e735f4c8799157b724659ffe, type: 3}

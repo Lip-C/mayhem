@@ -801,8 +801,14 @@
  <Reference Include="Unity.InternalAPIEngineBridge.001">
  <HintPath>/Users/anthonyromrell/GitRepos/mayhem/MeyhemTrucks/Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.001.dll</HintPath>
  </Reference>
+ <Reference Include="Cinemachine">
+ <HintPath>/Users/anthonyromrell/GitRepos/mayhem/MeyhemTrucks/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.VSCode.Editor">
  <HintPath>/Users/anthonyromrell/GitRepos/mayhem/MeyhemTrucks/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="com.unity.cinemachine.editor">
+ <HintPath>/Users/anthonyromrell/GitRepos/mayhem/MeyhemTrucks/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>/Users/anthonyromrell/GitRepos/mayhem/MeyhemTrucks/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
@@ -831,9 +837,6 @@
  <Reference Include="Unity.InternalAPIEditorBridge.001">
  <HintPath>/Users/anthonyromrell/GitRepos/mayhem/MeyhemTrucks/Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.001.dll</HintPath>
  </Reference>
- <Reference Include="Unity.2D.SpriteShape.Editor">
- <HintPath>/Users/anthonyromrell/GitRepos/mayhem/MeyhemTrucks/Library/ScriptAssemblies/Unity.2D.SpriteShape.Editor.dll</HintPath>
- </Reference>
  <Reference Include="Unity.2D.Sprite.Editor">
  <HintPath>/Users/anthonyromrell/GitRepos/mayhem/MeyhemTrucks/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
  </Reference>
@@ -849,17 +852,14 @@
  <Reference Include="UnityEngine.UI">
  <HintPath>/Users/anthonyromrell/GitRepos/mayhem/MeyhemTrucks/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
  </Reference>
+ <Reference Include="Unity.2D.SpriteShape.Editor">
+ <HintPath>/Users/anthonyromrell/GitRepos/mayhem/MeyhemTrucks/Library/ScriptAssemblies/Unity.2D.SpriteShape.Editor.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.2D.SpriteShape.Runtime">
  <HintPath>/Users/anthonyromrell/GitRepos/mayhem/MeyhemTrucks/Library/ScriptAssemblies/Unity.2D.SpriteShape.Runtime.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Mathematics">
  <HintPath>/Users/anthonyromrell/GitRepos/mayhem/MeyhemTrucks/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
- </Reference>
- <Reference Include="com.unity.cinemachine.editor">
- <HintPath>/Users/anthonyromrell/GitRepos/mayhem/MeyhemTrucks/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
- </Reference>
- <Reference Include="Cinemachine">
- <HintPath>/Users/anthonyromrell/GitRepos/mayhem/MeyhemTrucks/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
